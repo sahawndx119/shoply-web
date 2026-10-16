@@ -1,0 +1,80 @@
+/* in the name of God  */
+
+html {
+  font-size: 62.5%;
+  --bg-color: #eaeaea;
+  --border-color: #bababa;
+  --item-color: #f5f7fa;
+  --orange: #f44100;
+  --button-color: #d9d9d9;
+  --in-button-color: #848484;
+  --blue: #1a1239;
+  --header-font: "Montserrat", sans-serif;
+  --normal-font: "Roboto", sans-serif;
+  --buttons-font: "Inder", sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#logo-img {
+  width: 20rem;
+}
+
+#logo div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#logo h1 {
+  font-family: var(--header-font);
+  font-size: 5rem;
+  color: var(--blue);
+}
+
+span {
+  color: var(--orange);
+  font-size: 2rem;
+}
+
+p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h2 {
+  font-family: var(--header-font);
+  font-size: 2rem;
+  color: var(--blue);
+}
+
+
+#opening {
+  display: flex;
+  flex-direction :column;
+  gap: 4rem;
+}
